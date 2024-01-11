@@ -1,0 +1,24 @@
+.dialog-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.25rem 0;
+
+    p {
+        font-size: 25px;
+        font-weight: 600;
+        color: $dark-blue;
+    }
+
+    i {
+        padding: 5px;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:hover {
+            background: rgba(0,0,0,0.1);
+        }
+    }
+}

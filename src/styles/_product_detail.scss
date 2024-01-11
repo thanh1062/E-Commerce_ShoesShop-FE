@@ -1,0 +1,80 @@
+.size {
+    position: relative;
+
+    .p-highlight {
+        border-color: $light-blue !important;
+        background-color: $light-blue !important;
+    }
+
+    .p-radiobutton-disabled {
+        cursor: no-drop !important;
+        background-color: rgb(209, 209, 209);
+    }
+
+    .p-radiobutton {
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+
+        .p-radiobutton-box {
+            padding: 25px;
+            border-radius: 3px;
+            border: none;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        }
+
+    }
+
+    label {
+        z-index: 0;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.sizes {
+    position: relative;
+
+    .p-highlight {
+        border-color: $light-blue !important;
+        background-color: $light-blue !important;
+    }
+
+    .p-checkbox-disabled {
+        cursor: no-drop !important;
+        background-color: rgb(209, 209, 209);
+    }
+
+    .p-checkbox {
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        background: none;
+
+        .p-checkbox-box {
+            padding: 25px;
+            border-radius: 3px;
+            border: none;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        }
+
+    }
+
+    label {
+        cursor: pointer;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.color-product {
+    cursor: pointer;
+}
+
+.selected-color {
+    border: 1px solid $dark-blue;
+}

@@ -1,0 +1,15 @@
+// Tailwind directives
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./variables";
+@import "./common";
+@import "./layout";
+@import "./authentication";
+@import "./core";
+@import "./detail";
+@import "./product";
+@import "./product_detail";
+@import "./myaccount";
+@import "./cartItem";

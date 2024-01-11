@@ -1,0 +1,31 @@
+.border-item {
+    border: 1px solid rgba(90, 90, 90, 0.1);
+    margin: .6rem 0;
+
+    &:last-child {
+        border: none;
+    }
+}
+
+.p-dropdown {
+    outline: none;
+    .p-dropdown-label {
+        font-size: 13px;
+        font-weight: 600;
+        padding: .6rem;
+    }
+
+    .p-dropdown-trigger {
+        width: 2rem !important;
+
+        svg {
+            height: 13px;
+            width: 13px;
+        }
+    }
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+    font-size: 13px;
+    font-weight: 600;
+}

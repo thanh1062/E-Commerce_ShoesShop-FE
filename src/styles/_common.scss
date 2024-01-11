@@ -1,0 +1,81 @@
+// Disable border after click button
+*:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.p-dialog-header {
+  display: unset;
+  padding: 0 !important;
+
+  .p-dialog-header-icons {
+    display: none !important;
+  }
+}
+
+.btn {
+  min-width: 100%;
+  color: white !important;
+  transition: color 0.3s ease;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 1px solid $medium-blue !important;
+  background-color: $medium-blue !important;
+
+  &:hover {
+    background: $light-blue !important;
+    color: white !important;
+    border: 1px solid $light-blue !important;
+  }
+}
+
+.p-sidebar-header {
+  justify-content: space-between;
+}
+
+.p-sidebar {
+  &-content {
+    padding: 0 !important;
+  }
+
+  &-right {
+    .p-sidebar {
+      width: 34rem;
+      height: 100%;
+    }
+  }
+}
+
+.btn-color-dark {
+  background-color: $dark-blue !important;
+  border: none !important;
+}
+
+.btn-color-medium {
+  background-color: $medium-blue !important;
+  border: none !important;
+}
+
+.btn-color-light {
+  background-color: $light-blue !important;
+  border: none !important;
+}
+.errorMessage {
+  color: red;
+  font-size: 13px;
+}
+
+.z-index-100 {
+  z-index: 100;
+}
+
+.display-none {
+  display: none;
+}
+
+.disabled {
+  cursor: none;
+  user-select: none;
+  pointer-events: none;
+}
